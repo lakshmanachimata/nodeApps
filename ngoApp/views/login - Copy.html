@@ -1,0 +1,48 @@
+<html>
+<body>
+<style>
+.login_div {
+    position: absolute;
+
+    width: 300px;
+    height: 300px;
+
+    /* Center form on page horizontally & vertically */
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+.login_form {
+    width: 300px;
+    height: 300px;
+
+    background: gray;
+    border-radius: 10px;
+
+    margin: 0;
+    padding: 0;
+}
+</style>
+<div class="login_div">
+<form class="login_form" action="/login" method="post">
+<br><br>
+	<div>
+	<label>Username:</label>
+	<input type="text" name="username"/><br/>
+	</div>
+	<br><br>
+	
+	<div>
+	<label>Password:</label>
+	<input type="password" name="password"/>
+	</div>
+	<br><br>
+	<div>
+	<input type="submit" value="Submit"/>
+	</div>
+</form>
+</div>
+<body>
+</html>
